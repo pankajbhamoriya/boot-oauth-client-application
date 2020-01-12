@@ -64,7 +64,7 @@
         <version>2.1.0</version>
         <configuration>
           <version>1</version>
-          <projectId>javaapi-264517</projectId>
+          <projectId>springboot-264807</projectId>
         </configuration>
       </plugin>
 		</plugins>
