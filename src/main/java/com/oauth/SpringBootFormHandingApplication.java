@@ -6,15 +6,15 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.bind.annotation.*;
 
 @SpringBootApplication
-@RestController
+
 public class SpringBootFormHandingApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootFormHandingApplication.class, args);
 	}
+	  @GetMapping("/")
+	  public String hello() {
+	    return "hello world!";
+	  }
 	
-	@GetMapping("/get")
-	public ModelAndView getEmployeeInfo() {
-		return new ModelAndView("getEmployees");
-	}
 }
