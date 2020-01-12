@@ -6,6 +6,7 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.bind.annotation.*;
 
 @SpringBootApplication
+@RestController
 public class SpringBootFormHandingApplication {
 
 	public static void main(String[] args) {
