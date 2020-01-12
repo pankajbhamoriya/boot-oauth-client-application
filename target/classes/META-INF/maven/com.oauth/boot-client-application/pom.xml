@@ -62,7 +62,7 @@
         <artifactId>appengine-maven-plugin</artifactId>
         <version>2.1.0</version>
         <configuration>
-          <version>2</version>
+          <version>3</version>
           <projectId>javaapi-264517</projectId>
         </configuration>
       </plugin>
